@@ -1,0 +1,4 @@
+1.$(window).resize(function(){})
+2.$(window).scroll(function(){})----var scroll=$(document).scrollTop();
+3.!!!!在做遮罩层时，对文字的父元素使用background:rgba(0,0,0,.6)，可以挡不住文字的颜色。并且能保证文字的父子关系
+而使用background:#000;opacity:.6就不行，这种方法会让文字也半透明！！！！！
